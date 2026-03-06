@@ -1,0 +1,24 @@
+body{
+    /* esto cambia el fondo de la pagina */
+    background-color: burlywood;
+}
+h1{
+    /* esto alinea el texto */
+    text-align: justify;
+    text-shadow: 2px 2px 5px red; /* sombra del texto */
+}
+
+P{
+    /* esto cambia el color y tamaño del texto */
+    color: cadetblue;
+    font-size: 16PX; 
+    font-weight: bold;  /* grosor de la fuente */
+    font-family:Audiowide;
+    font-style:italic;
+    text-transform: capitalize; /* convierte el texto a mayúscula la primera letra de cada palabra */
+    text-shadow: 0px 0px 5px black; /* sombra del texto */
+    line-height: 1.5; /* espacio entre líneas */
+    letter-spacing: 4px; /* espacio entre letras */
+   
+
+}

@@ -7,6 +7,13 @@ h1{
     text-align: justify;
     text-shadow: 2px 2px 5px red; /* sombra del texto */
 }
+h2{
+    text-align: center;
+    color: darkslategray;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black; /* sombra del texto */
+    text-decoration: overline;
+}
 
 P{
     /* esto cambia el color y tamaño del texto */
@@ -16,7 +23,7 @@ P{
     font-family:Audiowide;
     font-style:italic;
     text-transform: capitalize; /* convierte el texto a mayúscula la primera letra de cada palabra */
-    text-shadow: 0px 0px 5px black; /* sombra del texto */
+    text-shadow: 10px 0px 10px black; /* sombra del texto */
     line-height: 1.5; /* espacio entre líneas */
     letter-spacing: 4px; /* espacio entre letras */
    

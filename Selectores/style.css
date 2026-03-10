@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.Pizza {
+    background-color: goldenrod;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.Pizza2 {
+    background-color: rosybrown;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.Pizza3 {
+    background-color: rgb(109, 198, 142);
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.container{
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+.subtittle{
+    font-family: cursive;
+    color: wheat;
+}

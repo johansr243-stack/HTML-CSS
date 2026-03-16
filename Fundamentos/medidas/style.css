@@ -1,0 +1,16 @@
+p{
+    background-color: aqua;
+}
+
+html{
+    font-size: 62.5%;  /* siempre se pone este porcentaje */
+}
+
+.pixeles{
+    font-size: 16px;
+}
+
+.rem{
+    font-size: 5.6rem;
+}
+

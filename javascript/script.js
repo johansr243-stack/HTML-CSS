@@ -1,15 +1,9 @@
 
 let nombre = prompt('cual es tu nombre')
-let grados = Number(prompt('grados celcius actuales'))
+let cuadradoalto = Number(prompt('tu cuadrado mide de alto'))
+let cuadradoancho = Number(prompt('tu cuadrado mide de ancho'))
 
-let farenheit = (grados * 1.8) + 32
+let area = cuadradoalto * cuadradoancho
 
-console.log('tus farenheit son: ' + farenheit)
-
-let nombrec = prompt('cual es tu nombre')
-let farenheittotales = Number(prompt('grados farenheit actuales'))
-
-let gradoscel = (farenheittotales - 32) / 1.8
-
-console.log('tus grados celcius son: ' + gradoscel)
+console.log('el area del cuadrado es: ' + area)
 

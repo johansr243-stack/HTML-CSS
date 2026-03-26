@@ -1,10 +1,16 @@
 
 let nombre = prompt('cual es tu nombre')
-let base = Number(prompt('cual es la base del triangulo'))
-let altura = Number(prompt('cual es la altura del triangulo'))
+let milimetros = Number(prompt('cuantos milimetros tienes'))
 
-let area = base * altura / 2
+let centimetros = milimetros / 10
 
-console.log('el area del triagunlo es: ' + area)
+console.log('tus centimetros son: ' + centimetros)
+
+let nombre1 = prompt('cual es tu nombre')
+let centimetros1 = Number(prompt('cuantos centimetros tienes'))
+
+let milimetrostotal = centimetros1 * 10
+
+console.log('tus centimetros son: ' + milimetrostotal)
 
 

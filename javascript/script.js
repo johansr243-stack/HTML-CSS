@@ -1,7 +1,8 @@
 
-let nombre = prompt('cual es el nombre de tu perro')
-let edad = Number(prompt('cuantos años tiene tu perro'))
+let nombre = prompt('cual es tu nombre')
+let pesos = Number(prompt('cuantos pesos tienes'))
 
-let edadperro = edad * 7
+let dolarestotal = pesos / 3700
 
-console.log(('la edad de tu perro es ' + edadperro))
+console.log('tus dolares ' + dolarestotal)
+

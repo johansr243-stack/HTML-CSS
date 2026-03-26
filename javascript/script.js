@@ -1,9 +1,8 @@
 
 let nombre = prompt('cual es tu nombre')
-let altura = Number(prompt('tu cuadrado mide de alto'))
-let base = Number(prompt('tu cuadrado mide de ancho'))
+let lado = Number(prompt('cuanto mide el lado de tu cuadrado'))
 
-let area = altura * base
+let perimetro = lado * 4
 
-console.log('el area del cuadrado es: ' + area)
+console.log('el perimetro del cuadrado es: ' + perimetro)
 

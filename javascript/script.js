@@ -1,15 +1,10 @@
 
 let nombre = prompt('cual es tu nombre')
-let minutos = Number(prompt('cuantos minutos tienes'))
+let base = Number(prompt('cual es la base del triangulo'))
+let altura = Number(prompt('cual es la altura del triangulo'))
 
-let segundos = minutos * 60
+let area = base * altura / 2
 
-console.log('tus segundos totales son: ' + segundos)
+console.log('el area del triagunlo es: ' + area)
 
-let nombre2 = prompt('cual es tu nombre')
-let segundos1 = Number(prompt('cuantos segundos tienes'))
-
-let segundostotales = segundos1 / 60
-
-console.log('tus minutos totales son: ' + segundostotales)
 
